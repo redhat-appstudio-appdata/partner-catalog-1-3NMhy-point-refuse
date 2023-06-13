@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-yvjr
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog-1/partner-catalog-yvjr@sha256:5bf79c94f1fe0488bcec790a042a866f9b18b819f43c3375822070ebae3c65b6
         name: my-java-springboot
         ports:
         - containerPort: 8081
