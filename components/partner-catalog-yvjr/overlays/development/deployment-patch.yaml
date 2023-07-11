@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-yvjr
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog-1/partner-catalog-yvjr@sha256:d1ea8b6d70a6aeebcafc9c9ee4b772837b409cc9106fa27206a39b3d92f39301
+      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog-1/partner-catalog-yvjr@sha256:436f49062e9aa29b838284f5805b88abe6cb63a3b21b649116823e277843614f
         name: my-java-springboot
         resources: {}
 status: {}
